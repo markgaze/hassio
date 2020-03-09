@@ -2,7 +2,7 @@
     "name": "Monitoror",
     "version": "0.1",
     "slug": "monitoror",
-    "description": "Monitoror is a wallboard monitoring app to monitor server status; monitor CI builds progress or even display critical values.",
+    "description": "Monitoror is a wallboard monitoring app to monitor server status; monitor CI builds progress or even display critical values",
     "url": "https://github.com/markgaze/addon-monitoror",
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
     "startup": "before",
