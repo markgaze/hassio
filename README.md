@@ -1,5 +1,12 @@
 # Home Assistant Add-on: Monitoror
 
+![Supports armhf Architecture][armhf-shield]
+![Supports armv7 Architecture][armv7-shield]
+![Supports aarch64 Architecture][aarch64-shield]
+![Supports amd64 Architecture][amd64-shield]
+![Supports i386 Architecture][i386-shield]
+![Maintained][maintained-shield]
+
 ![](/monitoror/logo.png)
 
 # About
