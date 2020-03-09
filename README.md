@@ -1,6 +1,6 @@
 # Home Assistant Add-on: Monitoror
 
-![](/monitoror/icon.png)
+![](/monitoror/logo.png)
 
 # About
 
