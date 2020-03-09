@@ -1,5 +1,7 @@
 # Home Assistant Add-on: Monitoror
 
+![](/monitoror/logo.svg)
+
 # About
 
 [Monitoror](https://github.com/monitoror/monitoror) is a wallboard monitoring app to monitor server status; monitor CI builds progress or even display critical values.
