@@ -17,6 +17,14 @@ Monitoror is a wallboard monitoring app to monitor server status; monitor CI bui
 2. Add https://github.com/markgaze/hassio-monitoror under "Repositories"
 3. This add-on should then be shown below. Click on it and click on "Install".
 
+### Usage
+
+Once the add-on is running, you can visit the Monitoror instance at `http://[YOUR_HOME_ASSISTANT_IP]:8080`
+
+You will need a configuration file, which is outlined in the [Monitoror docs](https://monitoror.com/documentation/#configuration). This can be stored in your `config` directory in Home Assistant or at any accessible URL.
+
+If you store your configuration file in the `config` directory (for example, at the following location `config/monitoror/config.json`), you can access it in Monitoror by visiting: `http://[YOUR_HOME_ASSISTANT_IP]:8080?configPath=/config/monitoror/config.json`
+
 #### Live demo
 
 You can see a live demo of Monitoror [here](https://demo.monitoror.com/?configUrl=https://monitoror.com/assets/demo.monitoror.com-config.json).
