@@ -1,6 +1,6 @@
 {
     "name": "Monitoror",
-    "version": "0.1",
+    "version": "0.2",
     "slug": "monitoror",
     "description": "Monitoror is a wallboard monitoring app to monitor server status; monitor CI builds progress or even display critical values",
     "url": "https://github.com/markgaze/hassio/monitoror",
@@ -9,10 +9,14 @@
     "boot": "auto",
     "map": ["config"],
     "options": {
-      "github_token": "GITHUB_TOKEN"
+      "github_token": "GITHUB_TOKEN",
+      "ado_token": "AZUREDEVOPS_TOKEN",
+      "ado_url": "AZUREDEVOPS_TOKEN"
     },
     "schema": {
-      "github_token": "str"
+      "github_token": "str?",
+      "ado_token": "str?",
+      "ado_url": "str?"
     },
     "ports": {
       "8080/tcp": 8080
