@@ -5,6 +5,8 @@
 ![Supports i386 Architecture][i386-shield]
 ![Maintained][maintained-shield]
 
+![](logo.png)
+
 ## Monitoror for Home Assistant
 
 This add-on allows you to host your own version of [Monitoror](https://github.com/monitoror/monitoror) within Home Assistant.
