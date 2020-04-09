@@ -15,8 +15,7 @@ Monitoror is a wallboard monitoring app to monitor server status; monitor CI bui
 
 #### Installation
 
-1. Go to Supervisor in the sidebar and click on "Add-on Store"
-2. Add https://github.com/markgaze/hassio-monitoror under "Repositories"
+1. Follow the instructions to [install the add-on repository](https://github.com/markgaze/hassio/#installation)
 3. This add-on should then be shown below. Click on it and click on "Install".
 
 ### Usage
