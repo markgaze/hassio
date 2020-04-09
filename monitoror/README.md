@@ -16,9 +16,21 @@ Monitoror is a wallboard monitoring app to monitor server status; monitor CI bui
 #### Installation
 
 1. Follow the instructions to [install the add-on repository](https://github.com/markgaze/hassio/#installation)
-3. This add-on should then be shown below. Click on it and click on "Install".
+2. This add-on should then be shown below. Click on it and click on "Install".
 
 ### Usage
+
+### Configuration
+
+For now the only available configuration options are the GitHub and Azure DevOps connections which Monitoror will use to connect to your GitHub/ADO data, this can be configured as follows:
+
+```yaml
+github_token: INSERT_GITHUB_PAT_HERE
+ado_token: INSERT_AZUREDEVOPS_TOKEN
+ado_url: INSERT_AZUREDEVOPS_TOKEN
+```
+
+## Usage
 
 Once the add-on is running, you can visit the Monitoror instance at `http://[YOUR_HOME_ASSISTANT_IP]:8080`
 
