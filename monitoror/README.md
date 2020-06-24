@@ -24,7 +24,15 @@ Once the add-on is running, you can visit the Monitoror instance at `http://[YOU
 
 You will need a configuration file, which is outlined in the [Monitoror docs](https://monitoror.com/documentation/#configuration). This can be stored in your `config` directory in Home Assistant or at any accessible URL.
 
-If you store your configuration file in the `config` directory (for example, at the following location `config/monitoror/config.json`), you can access it in Monitoror by visiting: `http://[YOUR_HOME_ASSISTANT_IP]:8080?configPath=/config/monitoror/config.json`
+If you store your configuration file in the `config` directory (for example, at the following location `config/monitoror/test.json`), you can access it in Monitoror by adding it to the config in Home Assistant with the following information:
+
+```yaml
+configs:
+  - name: TEST
+    path: /config/monitoror/test.json
+```
+
+You can then see the dashboard by visiting: `http://[YOUR_HOME_ASSISTANT_IP]:8080?config=test`
 
 #### Live demo
 

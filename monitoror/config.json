@@ -1,23 +1,31 @@
 {
-    "name": "Monitoror",
-    "version": "0.1",
-    "slug": "monitoror",
-    "description": "Monitoror is a wallboard monitoring app to monitor server status; monitor CI builds progress or even display critical values",
-    "url": "https://github.com/markgaze/hassio/monitoror",
-    "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-    "startup": "before",
-    "boot": "auto",
-    "map": ["config"],
-    "options": {
-      "github_token": "GITHUB_TOKEN"
-    },
-    "schema": {
-      "github_token": "str"
-    },
-    "ports": {
-      "8080/tcp": 8080
-    },
-    "ports_description": {
-      "8080/tcp": "UI port"
-    }
+  "name": "Monitoror",
+  "version": "0.2",
+  "slug": "monitoror",
+  "description": "Monitoror is a wallboard monitoring app to monitor server status; monitor CI builds progress or even display critical values",
+  "url": "https://github.com/markgaze/hassio/monitoror",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "before",
+  "boot": "auto",
+  "map": ["config"],
+  "options": {
+    "github_token": "GITHUB_TOKEN",
+    "ado_token": "AZUREDEVOPS_TOKEN",
+    "ado_url": "AZUREDEVOPS_TOKEN"
+  },
+  "schema": {
+    "github_token": "str?",
+    "ado_token": "str?",
+    "ado_url": "str?",
+    "configs": [
+      { "name": "str", "path": "str" }
+    ]
+  },
+  "ports": {
+    "8080/tcp": 8080
+  },
+  "ports_description": {
+    "8080/tcp": "UI port"
   }
+}
+
