@@ -1,5 +1,5 @@
 ![Supports armv7 Architecture][armv7-shield]
-![Supports arm64 Architecture][arm64-shield]
+![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
 ![Maintained][maintained-shield]
 
@@ -25,6 +25,6 @@ Once the add-on is running, you can visit the Uptime Kuma instance at `http://[Y
 You can see a live demo of Uptime Kuma [here](https://demo.uptime.kuma.pet/).
 
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[arm64-shield]: https://img.shields.io/badge/arm64-yes-green.svg
+[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [maintained-shield]: https://img.shields.io/maintenance/yes/2022.svg

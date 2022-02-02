@@ -4,7 +4,7 @@ version: 1.11.3
 slug: uptime-kuma
 arch:
   - amd64
-  - arm64
+  - aarch64
   - armv7
 ports:
   3001/tcp: 3001
