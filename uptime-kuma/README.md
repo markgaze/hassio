@@ -11,10 +11,10 @@ This add-on allows you to host your own version of [Uptime Kuma](https://github.
 
 Uptime Kuma is a self-hosted monitoring tool like "Uptime Robot".
 
-#### Installation
+### Installation
 
 1. Follow the instructions to [install the add-on repository](https://github.com/markgaze/hassio/#installation)
-3. This add-on should then be shown below. Click on it and click on "Install".
+2. This add-on should then be shown below. Click on it and click on "Install".
 
 ### Usage
 
