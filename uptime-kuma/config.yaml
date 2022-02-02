@@ -17,3 +17,5 @@ webui: http://[HOST]:[PORT:3001]
 ingress: true
 ingress_port: 0
 ingress_stream: true
+environment:
+  DATA_DIR: /config/uptime-kuma/
