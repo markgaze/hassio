@@ -13,3 +13,4 @@ This is my Home Assistant add-ons repository.
 ### Available add-ons
 
 - [Monitoror](/monitoror): a wallboard monitoring app to monitor server status; monitor CI builds progress or even display critical values.
+- [Uptime Kuma](/uptime-kuma): a self-hosted monitoring tool like "Uptime Robot".
