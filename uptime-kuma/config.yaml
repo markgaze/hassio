@@ -1,13 +1,15 @@
-name: "Uptime Kuma"
-description: "A fancy self-hosted monitoring tool "
-version: "1.11.3"
-slug: "uptime-kuma"
+name: Uptime Kuma
+description: A fancy self-hosted monitoring tool
+version: 1.11.3
+slug: uptime-kuma
 arch:
   - amd64
   - arm64
   - armv7
 ports:
   3001/tcp: 3001
+ports_description:
+  3001/tcp: Web UI
 map:
   - config:rw
 image: louislam/uptime-kuma
