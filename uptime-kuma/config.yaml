@@ -14,3 +14,6 @@ map:
   - config:rw
 image: louislam/uptime-kuma
 webui: http://[HOST]:[PORT:3001]
+ingress: true
+ingress_port: 0
+ingress_stream: true
