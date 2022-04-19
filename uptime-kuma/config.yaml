@@ -1,6 +1,6 @@
 name: Uptime Kuma
 description: A fancy self-hosted monitoring tool
-version: 1.13.1
+version: 1.14.1
 slug: uptime-kuma
 arch:
   - amd64
